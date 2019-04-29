@@ -1,0 +1,2 @@
+insert into intro (title, pic, detail)
+values ('Hello, Welcome to my site','<img id="intro_img" src="../img/suminlee.jpg" alt="intro img">','I graduated Computer Science at Dankook University and I am studying Mobile Solution Development at Conestoga College. Also, I have various experience of internship and volunteer. If you have question about this site or me, <a href="mailto:jessica.slee4275@gmail.com"> please contact me. </a> <br/> This site is based on PHP, JavaScript, HTML and CSS. And there is used MySQL for database, and Apache for server. Check it on this site!');

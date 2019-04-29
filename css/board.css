@@ -1,0 +1,305 @@
+/*body{
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+}*/
+#content #col2 {
+	width:90%;
+	min-height:558px;
+	float:left;
+	margin-left:15px;
+/*	border:solid 1px #cccccc; */
+}
+#content{
+    margin-left:5%;
+}
+#content #col2 #title{
+    margin-top:30px;
+    font-size: 30px;
+    font-weight: bold;
+	border-bottom:solid 1px #cccccc;
+}
+
+/* list css */
+
+#list_search {
+	height:30px;
+    padding-top:10px;
+    padding-bottom:3%;
+}
+
+#list_search #list_search1 {
+	float:left;
+	
+}
+
+#list_search #list_search3 {
+	float:left;
+}
+
+#list_search #list_search3 select {
+    width: 100px;
+	height:21px;
+    border:solid 1px #cccccc;
+    margin-right: 5px;
+}
+
+#list_search #list_search4 {
+	float:left;
+}
+
+#list_search #list_search4 input {
+    width: 200px;
+    height: 21px;
+    margin-right: 15px;
+	border:solid 1px #cccccc;
+}
+
+#list_search #list_search5 {
+    float:left;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+#list_top_title {
+	/* height:20px;
+	padding:7px;   */
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+    margin-bottom:3px;
+    font-weight: bold;
+}
+
+#list_top_title li {
+	display:inline;
+	margin-bottom: 12px;
+	margin-left: 15px;
+}
+
+#list_top_title #list_title1 {
+    width: 10%;
+    display: inline-block;
+	margin-top: 10px;
+}
+
+#list_top_title #list_title2 {
+    width: 37%;
+    display: inline-block;
+}
+
+#list_top_title #list_title3 {
+    width: 20%;
+    display: inline-block;
+}
+
+
+#list_top_title #list_title4 {
+    width: 20%;
+    display: inline-block;
+}
+
+#list_top_title #list_title5 {
+    width: 5%;
+    display: inline-block;
+}
+
+#list_content {
+	height:380px;
+}
+
+#list_item {
+	margin-top:2px;
+    padding:6px;  
+    margin-left: 35px;
+	/* border-bottom:solid 1px #eeeeee; */
+}
+
+#list_item #list_item1{
+	display: inline-block;
+    width:10%;
+}
+
+#list_item #list_item2{
+	display: inline-block;
+    width: 40%;
+}
+
+#list_item #list_item3{
+	display: inline-block;
+	width:20%;
+}
+
+#list_item #list_item4{
+	display: inline-block;
+	width:20%;
+}
+
+#list_item #list_item5{
+	display: inline-block;
+    width:5%;
+    text-align: right;
+}
+
+#page_button {
+	margin-top:10px;
+}
+
+#page_num {
+    border-top: solid 2px #eeeeee;
+	float:left;
+    text-align:center;
+    width: 100%;
+}
+
+#list_button {
+	/* float:left; */
+	width: 8%;
+    text-align: center;
+    margin-right: 3px;
+}
+#ok_button {
+	/* float:left; */
+	width: 7%;
+    text-align: center;
+    margin-right: 15px;
+}
+/* write_form css */
+
+#write_form_title {    
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 7px;
+    border-top: solid 2px #aaaaaa;
+    background-color: #eeeeee;
+}
+
+#write_form {
+	margin-top:10px;
+}
+
+#write_form #write_row1 {
+    width:99%; 
+	height:30px; 
+	margin:2px 0 2px 0; 
+}
+
+#write_form #write_row2 {
+    width:99%; 
+	height:30px; 
+	margin:2px 0 2px 0; 
+}
+
+#write_form #write_row3 {
+    width:99%; 
+	overflow: auto;
+	margin:2px 0 2px 0; 
+}
+
+.write_line {
+    width:99%; 
+	border-bottom:solid 1px #cccccc;
+}
+
+#write_form .col1 {
+	float:left;
+	width:120px;
+	text-align:center;
+	padding:5px;
+	background-color:#eeeeee;
+}
+
+#write_form #write_row3 .col1 {
+	/* height:126px;
+    padding-top:120px; */
+    height: 310px;
+}
+
+#write_form .col2 {
+	float:left;
+	margin-left: 8px;
+	margin-top:2px;
+}
+
+#write_form #write_row1 .col2 {
+	float:left;
+	margin-top:6px;
+}
+
+#write_form #write_row1 .col3 {
+	float:right;
+	margin-top:4px;
+	margin-left:100px;
+}
+
+#write_row2 .col2 input {
+	width:600px;
+	height:26px;
+	border:solid 1px #cccccc;
+}
+
+#write_row3 .col2 textarea {
+    display: inline-block;
+    width:600px;
+    margin-top:1px;
+	border:solid 1px #cccccc;
+}
+
+#write_button {
+	/* margin-top:15px;
+	width:97%; */
+	text-align:right;
+}
+.btn_ok{
+    text-align: center;
+    margin-top:7px;
+}
+/* view.php css */
+
+#view_comment {
+	margin:10px 0 0 10px;
+}
+
+#view_title {
+	height:45px;
+	padding:10px 8px 8px 8px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+	margin-bottom:5px;
+	font-size: 16px;
+}
+
+#view_title1 {
+	float:left;
+	width:60%;
+}
+
+#view_title2 {
+	float:left;
+	width:40%;
+	text-align:right;
+}
+
+#view_content {
+	width:96%;
+	min-height:300px;
+	padding:15px;
+	overflow:hidden;
+	line-height:150%;
+	border-bottom:solid 1px #cccccc;
+}
+
+#view_button {
+	width:98%;
+	text-align:right;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#btn_search{
+    padding: 1px;
+	width: 80px;
+	margin-top: 0px;
+}
+.btn-info{
+	color:#ffffff;
+}
